@@ -1,6 +1,6 @@
 <style>
 	#mobile-menu{
-
+		display: none;
 	}
 
 	/*TABLET*/

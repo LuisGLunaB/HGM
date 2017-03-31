@@ -24,9 +24,9 @@
 
 <body onresize="" onload="">
 	<?php include_once("$ROOT/html/main-menu.php"); ?>
-
 	<!-- Contenido antes del container -->
-  <div class="container">
+
+  <div class="container" style="height: 1200px; background-color: gray;">
 		<div class="card-panel deep-purple lighten-5">
 			<span class="blue-text text-darken-2">This is a card panel with dark blue text</span>
 		</div>
