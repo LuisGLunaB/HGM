@@ -10,7 +10,7 @@
 	}
 
 	#logo{
-		max-width: 100%;
+		max-width: 310px;
 		min-width: 200px;
 		height: auto;
 	}
@@ -52,7 +52,7 @@
 <header class="row">
 		<div class="col m12 l6 left-align">
 			<a href="<?php echo $ROOT; ?>/index.php">
-				<img id="logo" class="pad-h-2 pad-v-4" src="<?php echo $ROOT; ?>/images/logo.png" alt="Logo Dr. Hector Gonzalez Miramontes">
+				<img id="logo" class="pad-h-3 pad-v-10" src="<?php echo $ROOT; ?>/images/logo.png" alt="Logo Dr. Hector Gonzalez Miramontes">
 			</a>
 		</div>
 		<div class="col  m0 l6 right-align" > &nbsp; </div>
