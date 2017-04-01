@@ -6,7 +6,7 @@
 <html lang="es-MX" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
 <head>
 
-	<title>Hola Mundo</title>
+	<title>Dr. Hector G. Miramontes - SMAS Facelift Master</title>
 	<meta name="description" content="Descripción" />
 
 	<?php
@@ -24,22 +24,17 @@
 
 <body onresize="" onload="">
 	<?php include_once("$ROOT/html/main-menu.php"); ?>
-	<!-- Contenido antes del container -->
+	<?php include_once("$ROOT/blocks/carousel.php") ?>
 
-  <div class="container" style="height: 1200px; background-color: gray;">
-		<div class="card-panel deep-purple lighten-5">
-			<span class="blue-text text-darken-2">This is a card panel with dark blue text</span>
-		</div>
-		<a class="btn btn-floating pulse"><i class="material-icons">menu</i></a>
-		<a class="btn btn-floating btn-large pulse"><i class="material-icons">cloud</i></a>
-		<a class="btn btn-floating btn-large cyan pulse"><i class="material-icons">edit</i></a>
+  <div class="container" style="">
+
   </div>
 
 	<?php
 	include_once("$ROOT/html/footer.php");
 	include_once("$ROOT/html/tracking-body.php");
 	?>
-	<script src="<?php echo $ROOT;?>/javascript/general-controller.js"></script>
+	<script src="<?php echo $ROOT;?>/javascript/main.js"></script>
 </body>
 
 </html>

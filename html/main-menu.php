@@ -37,14 +37,14 @@
 		}
 		#display-menu-button{
 			top: 28px;
-			right: 33px;
+			right: 25px;
 		}
 	}
 	/*MOBILE*/
 	@media screen and (max-width:600px) {
 		#display-menu-button{
 			top: 20px;
-			right: 25px;
+			right: 20px;
 		}
 	}
 </style>
@@ -64,4 +64,4 @@
 	<?php include_once("$ROOT/html/mobile-menu.php"); ?>
 </header>
 
-<div id="header-space" style="height: 0px;"></div>
+<div id="header-space" style="height: 0px;display: block;"> &nbsp; </div>
