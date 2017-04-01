@@ -58,10 +58,10 @@
 		<div class="col  m0 l6 right-align" > &nbsp; </div>
 
 	<a href="javascript:">
-		<img id="display-menu-button" src="<?php echo $ROOT; ?>/images/icons/menu-elegant.png" alt="Display Menu Button">
+		<img id="display-menu-button" data-activates="slide-out" class="button-collapse" src="<?php echo $ROOT; ?>/images/icons/menu-elegant.png" alt="Display Menu Button">
 	</a>
-
-	<?php include_once("$ROOT/html/mobile-menu.php"); ?>
 </header>
+
+<?php include_once("$ROOT/html/mobile-menu.php"); ?>
 
 <div id="header-space" style="height: 0px;display: block;"> &nbsp; </div>

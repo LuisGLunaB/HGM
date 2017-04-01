@@ -1,8 +1,25 @@
 <style>
+  .slide-0,.slide-1,.slide-2,.slide-3,.slide-4{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+  }
+
+  .slide-0{background-image: url("./images/sliders/slide-bg-0.png");}
+  .slide-1{background-image: url("./images/sliders/slide-bg-1.png");}
+  .slide-2{background-image: url("./images/sliders/slide-bg-2.png");}
+  .slide-3{background-image: url("./images/sliders/slide-bg-3.png");}
+  .slide-4{background-image: url("./images/sliders/slide-bg-4.png");}
+
+  .carousel{
+    background-color: #E3E3E3;
+  }
   .indicator-item.active{
     background-color: #395794 !important;
   }
-
+  .letra-blanca .first-text, .letra-blanca .second-text{
+    text-shadow: 0 0 10px #787878;
+  }
   .first-text, .second-text, .carousel-button{
     margin-top: 8px !important;
     margin-bottom: 8px !important;
@@ -103,6 +120,8 @@
   }
 
   @media screen and (max-width: 600px){
+    .slide-0,.slide-1,.slide-2,.slide-3,.slide-4{
+    }
     .carousel-button{
       font-size: 11px !important;
       min-width: 80px;
@@ -132,7 +151,7 @@
   }
 </style>
 
-<div class="carousel carousel-slider red center" style="height:100%;" data-indicators="true">
+<div class="carousel carousel-slider center" style="height:100%;" data-indicators="true">
 
   <div class="carousel-fixed-item">
     <a class="arrow" onclick="clearTimeout(TransitionManager);CarouselPrev();" style="left: 0px;" href="#">
@@ -143,7 +162,7 @@
     </a>
   </div>
 
-  <div class="slide-0 carousel-item blue" href="#">
+  <div class="slide-0 carousel-item" href="#">
     <div class="carousel-container center-align letra-blanca" style="">
       <p class="first-text fade-out-to-front duration-200">DR. HECTOR G. MIRAMONTES</p>
       <p class="second-text fade-out-to-front duration-200">FACIAL REJUVENATION CENTRE</p>
@@ -151,7 +170,7 @@
     </div>
   </div>
 
-  <div class="slide-1 carousel-item white" href="#">
+  <div class="slide-1 carousel-item" href="#">
     <div class="carousel-container left-align letra-azul" style="left:-11%;">
       <p class="first-text fade-out-to-front duration-200">DISCOVER OUR FACELIFTS</p>
       <p class="second-text fade-out-to-front duration-200">BROWSE OUR BEFORE & AFTER SOUNDSLIDES</p>
@@ -159,7 +178,7 @@
     </div>
   </div>
 
-  <div class="slide-2 carousel-item white" href="#">
+  <div class="slide-2 carousel-item" href="#">
     <div class="carousel-container left-align letra-azul" style="left:-14%;">
       <p class="first-text fade-out-to-front duration-200">PERFECTION IN REACH</p>
       <p class="second-text fade-out-to-front duration-200">JAW AND NECKLIFT SURGERY</p>
@@ -167,7 +186,7 @@
     </div>
   </div>
 
-  <div class="slide-3 carousel-item blue" href="#">
+  <div class="slide-3 carousel-item" href="#">
     <div class="carousel-container left-align letra-blanca" style="left:-31%;">
       <p class="first-text fade-out-to-front duration-200">OH MY!</p>
       <p class="second-text fade-out-to-front duration-200">OUR EYES HAVE IT</p>
@@ -175,21 +194,13 @@
     </div>
   </div>
 
-  <div class="slide-4 carousel-item white" href="#">
+  <div class="slide-4 carousel-item" href="#">
     <div class="carousel-container left-align letra-azul" style="left:-7%;">
       <p class="first-text fade-out-to-front duration-200">SEND US YOUR HEAD SHOTS</p>
       <p class="second-text fade-out-to-front duration-200">GET AN ONLINE EVALUATION</p>
       <a class="carousel-button fade-out-to-front duration-200" href="#">GET A QUOTE</a>
     </div>
   </div>
-
-  <!-- <div class="carousel-item" href="#">
-    <div class="carousel-container center-align">
-      <p class="first-text">DR. HECTOR G. MIRAMONTES</p>
-      <p class="second-text">FACIAL REJUVENATION CENTRE</p>
-      <a class="carousel-button" href="#">READ MORE</a>
-    </div>
-  </div> -->
 
 </div>
 
